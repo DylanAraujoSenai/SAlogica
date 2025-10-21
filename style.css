@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap');
+
+body { /*corpo principal, cor do fundo e fonte da letra */
+    background-color: #0047b6;
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+#menuTopo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+#cxMenus ul {  /*menus */
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#cxMenus a {
+  font-size: 13px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#cxMenus a:hover {
+  color:#02122c;
+}
+
+/* css dos nomes inferiores*/
+#Nomes{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: #02122c;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  font-family: "Inter", sans-serif;
+}
+
+#icone img {
+  width: 170px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+}
+
+#title{
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  text-align: center;      
+  flex-direction: column;
+  height: 400px;          
+  width: 100%;
+  margin-top: 110px;
+}
+
+/*css utilizado em todos os menus para centrelização */
+#text{
+  justify-content: center;
+  text-align: center;
+  margin-top: 150px;
+}
